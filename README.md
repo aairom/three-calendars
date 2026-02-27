@@ -2,13 +2,15 @@
 
 A self-contained, single-file HTML application that displays three calendar systems side by side — **Gregorian**, **Persian (Jalali)**, and **Hijri (Islamic)** — all synchronized to the same selected date via Julian Day Number (JDN) as a universal pivot.
 
+![main-page](./images/main-page.png)
+
 ---
 
 ## ✨ Features
 
 | Feature | Description |
 |---|---|
-| **Three calendars** | Gregorian, Persian/Jalali, and Hijri/Islamic displayed simultaneously |
+| **Three calendars** | Gregorian, Persian/**Jalali**, and **Hijri**/Islamic displayed simultaneously |
 | **Synchronized selection** | Clicking any date in any calendar highlights the equivalent date in all three |
 | **Month navigation** | `‹` / `›` buttons to move backward/forward one month per calendar independently |
 | **Go to date** | Input fields (year, month dropdown, day) on each card to jump to a specific date |
@@ -23,30 +25,47 @@ A self-contained, single-file HTML application that displays three calendar syst
 
 ## 📅 Calendar Systems
 
-### Gregorian
+### Gregorian ✝️
 - Standard international calendar (ISO 8601 basis).
 - Week starts **Sunday**.
 - Weekends: **Saturday** and **Sunday** (highlighted in red).
 - Leap year: divisible by 4, except centuries unless also divisible by 400.
 - Color accent: **blue** (`#4fc3f7`).
 
-### Persian / Jalali (Solar Hijri)
-- Official calendar of Iran and Afghanistan.
-- Week starts **Saturday** (`Shanbe, Yek-shanbe, Do-shanbe, Se-shanbe, Chahar-shanbe, Panj-shanbe, Jom-e`).
+### Persian / Jalali (**Solar** 🌞 Hijri)
+- Official calendar of **Iran** and **Afghanistan**.
+- Week starts **Saturday** (**šanbe** (**شنبه**), **yekšanbe** (**یک‌ شنبه** - Sunday), **došanbe** (**دو‌شنبه** - Monday), **sešanbe** (**سه‌شنبه** - Tuesday), **čahâršanbe** (**چهار‌شنبه** - Wednesday), **panjšanbe** (**پنج‌شنبه**, Thursday), **Jom-e** (**جمعه** - Friday)).
 - Weekend: **Friday** only (highlighted in red).
 - Grid direction: **right-to-left**.
 - Months 1–6 have 31 days, months 7–11 have 30 days, month 12 has 29 (or 30 in a leap year).
 - Leap year algorithm: jalaali-js cycle-based calculation.
 - Color accent: **green** (`#81c784`).
 
-### Hijri / Islamic (Tabular)
-- Lunar calendar used across the Islamic world.
-- Week starts **Sunday** (same as Gregorian).
+### Hijri / Islamic (**Lunar** 🌝 Tabular)
+- **Lunar** calendar used across the **Islamic** world.
+
+- Week starts **Sunday** (same as **Gregorian**).
+
+  | English   | Arabic (اللغة العربية) | Pronunciation | Teaching notes                                               |
+  | --------- | ---------------------- | ------------- | ------------------------------------------------------------ |
+  | Sunday    | **الأحد**              | al-aḥad       | Comes from the word “one”. It’s the beginning of the week in many Arab countries |
+  | Monday    | **الإثنين**            | al-ithnayn    | Root: Ithnayn, which is from two–The second day of the week. |
+  | Tuesday   | **الثلاثاء**           | ath-thulāthā’ | Root: Thalatha–Three                                         |
+  | Wednesday | **الأربعاء**           | al-arbiʿā’    | Root: Arba–Four                                              |
+  | Thursday  | **الخميس**             | al-khamīs     | Root: Khamsa-five                                            |
+  | Friday    | **الجمعة**             | al-jumuʿah    | The blessed day of Jumu’ah                                   |
+  | Saturday  | **السبت**              | as-sabt       | Root for the sabbath or rest da                              |
+
 - Weekends: **Friday** and **Saturday** (highlighted in red).
+
 - Grid direction: **right-to-left**.
+
 - Month lengths alternate 30/29 days; the 12th month gains a day in leap years.
+
 - Leap year rule: positions 3, 6, 8, 11, 14, 17, 19, 22, 25, 27, 30 in a 30-year cycle (`floor((11y+3)/30)`).
+
 - Year displayed with the **AH** (Anno Hegirae) suffix.
+
 - Color accent: **amber** (`#ffb74d`).
 
 ---
@@ -95,7 +114,7 @@ All three calendars are bridged through the **Julian Day Number (JDN)** — a co
 
 No installation or build step required.
 
-1. Open [`three-calendars.html`](three-calendars.html) directly in any modern browser.
+1. Download and then Open [`three-calendars.html`](three-calendars.html) directly in any modern browser.
 2. The page loads showing today's date highlighted across all three calendars.
 
 ### Navigating
