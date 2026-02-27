@@ -2,7 +2,7 @@
 
 A self-contained, single-file HTML application that displays three calendar systems side by side — **Gregorian**, **Persian (Jalali)**, and **Hijri (Islamic)** — all synchronized to the same selected date via Julian Day Number (JDN) as a universal pivot.
 
-![main-page](./images/main-page.png)
+![main-page](./main-page.png)
 
 ---
 
