@@ -32,7 +32,7 @@ A self-contained, single-file HTML application that displays three calendar syst
 
 ### Persian / Jalali (Solar Hijri)
 - Official calendar of Iran and Afghanistan.
-- Week starts **Saturday** (`Sha, Yek, Do, Se, Cha, Pan, Jom`).
+- Week starts **Saturday** (`Shanbe, Yek-shanbe, Do-shanbe, Se-shanbe, Chahar-shanbe, Panj-shanbe, Jom-e`).
 - Weekend: **Friday** only (highlighted in red).
 - Grid direction: **right-to-left**.
 - Months 1–6 have 31 days, months 7–11 have 30 days, month 12 has 29 (or 30 in a leap year).
