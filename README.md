@@ -34,7 +34,7 @@ A self-contained, single-file HTML application that displays three calendar syst
 
 ### Persian / Jalali (**Solar** 🌞 Hijri)
 - Official calendar of **Iran** and **Afghanistan**.
-- Week starts **Saturday** (**šanbe** (**شنبه**), **yekšanbe** (**یک‌ شنبه** - Sunday), **došanbe** (**دو‌شنبه** - Monday), **sešanbe** (**سه‌شنبه** - Tuesday), **čahâršanbe** (**چهار‌شنبه** - Wednesday), **panjšanbe** (**پنج‌شنبه**, Thursday), **Jom-e** (**جمعه** - Friday)).
+- Week starts **Saturday** (**šanbe** (**شنبه**), **yekšanbe** (**یک‌ شنبه** - Sunday), **došanbe** (**دو‌شنبه** - Monday), **sešanbe** (**سه‌شنبه** - Tuesday), **čahâršanbe** (**چهار‌شنبه** - Wednesday), **panjšanbe** (**پنج‌شنبه**, Thursday), **Jom-e** (**جمعه** - Friday).
 - Weekend: **Friday** only (highlighted in red).
 - Grid direction: **right-to-left**.
 - Months 1–6 have 31 days, months 7–11 have 30 days, month 12 has 29 (or 30 in a leap year).
